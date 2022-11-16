@@ -1,6 +1,6 @@
 const assertArraysEqual = (arr1, arr2) => {
   for (let index in arr1){ // 
-    if (arr1[index] !== arr2[index]){
+    if (arr1[index] !== arr2[index] || arr1.length !== arr2.length){
       return console.log(`🛑🛑🛑 Assertion Failed: ${arr1} !== ${arr2}`)
     }
   }
