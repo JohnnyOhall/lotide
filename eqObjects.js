@@ -25,7 +25,7 @@ const eqObjects = function(object1, object2) {
 
   for (const key in object1) {
     if (Array.isArray(object1[key]) && Array.isArray(object2[key])) { //checks if true that both keys contain arrays
-      if (eqArrays(object1[key], object2[key]) === false) { //uses helper function eqArrays to see if key arrays are the same
+      if (!eqArrays(object1[key], object2[key])) { //uses helper function eqArrays to see if key arrays are the same
         return false; // return false if key arrays !same
       }
     } else if (object1[key] !== object2[key]) { //compares object keys primitives to see if the same
