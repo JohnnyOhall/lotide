@@ -5,7 +5,6 @@ const assertEqual = (actual, expected) => {
 };
 
 const findKeyByValue = (obj, value) =>{
-
   for (const val in obj){
     if (value === obj[val]){
       return val
