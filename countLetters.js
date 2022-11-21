@@ -1,9 +1,3 @@
-const assertEqual = (actual, expected) => { 
-  return actual === expected ?
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`) :
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-};
-
 const countLetters = input => {
   const obj = {}; // Object to collect character data
   let format = input.split(' ').join('').toLowerCase(); // Remove space & make lowercase
@@ -19,7 +13,4 @@ const countLetters = input => {
   return obj; // return final string
 };
 
-// TEST CASES //
-assertEqual(countLetters("helLo There").e, 3);
-assertEqual(countLetters("mississippi").i, 4);
-assertEqual(countLetters('LHL').l, 2);
+module.exports = countLetters
