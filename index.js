@@ -5,6 +5,7 @@ const middle = require('./middle');
 const countLetters = require('./countLetters');
 const countOnly = require('./countOnly');
 const findKeyByValue = require('./findKeyByValue'); 
+const findKey = require('./findKey');
 
 module.exports = {
   head:   head,
@@ -12,5 +13,6 @@ module.exports = {
   middle: middle,
   countLetters: countLetters,
   countOnly: countOnly,
-  findKeyByValue: findKeyByValue
+  findKeyByValue: findKeyByValue,
+  findKey: findKey
 };
