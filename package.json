@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@johnnyohall/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project was created and published by me (John O'Halloran) as part of my learnings at Lighthouse Labs. ",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/JohnnyOhall/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "John O'Halloran <john.ohalloran@telus.com> (https://github.com/JohnnyOhall/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JohnnyOhall/lotide/issues"
