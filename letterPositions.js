@@ -1,3 +1,8 @@
+/*
+string input (sentance) returns object array of each character
+and index location.
+*/
+
 const letterPositions = sentence => {
   const results = {};
   let position = 0;
@@ -6,12 +11,12 @@ const letterPositions = sentence => {
   for (const key of sentence) { // Add characters as key from Format to obj
     if (key === " ") {
       position++;
-    } else if (results[key]){
+    } else if (results[key]) {
       results[key].push(position);
-      position++
+      position++;
     } else {
       results[key] = [position]; // If key not found in obj, add new key with value 1
-      position++
+      position++;
     }
   }
   return results;

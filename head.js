@@ -4,4 +4,4 @@ const head = arr => {
     `error!`;
 };
 
-module.exports = head
+module.exports = head;

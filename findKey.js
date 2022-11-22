@@ -7,6 +7,6 @@ const findKey = (obj, action) =>{
   }
 };
 
-module.exports = findKey
+module.exports = findKey;
 
 

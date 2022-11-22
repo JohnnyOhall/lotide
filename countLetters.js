@@ -1,3 +1,10 @@
+/*
+* `countLetters(input)`: returns object with each character as key and count of the character as value.
+Example:
+Function: countLetters("LHL"),
+Returns: { l: 2, h: 1 } )
+*/
+
 const countLetters = input => {
   const obj = {}; // Object to collect character data
   let format = input.split(' ').join('').toLowerCase(); // Remove space & make lowercase
@@ -13,4 +20,4 @@ const countLetters = input => {
   return obj; // return final string
 };
 
-module.exports = countLetters
+module.exports = countLetters;

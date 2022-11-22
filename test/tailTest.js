@@ -10,7 +10,7 @@ const tail = require('../tail');
 describe("#tail", () => {
   it("Returns [ 'Lighthouse', 'Labs'] out of words array ['Yo Yo', 'Lighthouse', 'Labs']", () =>{
     const words = ["Yo Yo", "Lighthouse", "Labs"];
-    assert.deepEqual(tail(words), [ "Lighthouse", "Labs"]); 
+    assert.deepEqual(tail(words), [ "Lighthouse", "Labs" ]); 
   });
   it("Confirm original array was not modified and contains 3 elements still.", () => {
     const words = ["Yo Yo", "Lighthouse", "Labs"];

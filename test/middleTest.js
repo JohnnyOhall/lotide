@@ -9,7 +9,7 @@ describe("#middle, based on array length: returns 2 item from middle of array if
   });
   it('Test returns 4 when given testOdd array: [1,2,3,4,5,6,7]', () => {
     const testOdd = [1,2,3,4,5,6,7];
-    assert.equal(middle(testOdd), 4);
+    assert.strictEqual(middle(testOdd), 4);
   });
   it('Test returns [] array if array length is less than 3', () => {
     const testShort = [1,2];
