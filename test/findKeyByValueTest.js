@@ -1,9 +1,9 @@
 const assert = require('chai').assert;
-const findKeyByValue = require('../findKeyByValue')
+const findKeyByValue = require('../findKeyByValue');
 
 // TEST Variables //
-const bestTVShowsByGenre = { 
-  sci_fi: "The Expanse",
+const bestTVShowsByGenre = {
+  "sci_fi": "The Expanse",
   comedy: "Brooklyn Nine-Nine",
   drama:  "The Wire"
 };

@@ -12,9 +12,9 @@ describe('#findKey', () => {
       "elBulli":   { stars: 3 },
       "Ora":       { stars: 2 },
       "Akelarre":  { stars: 3 }
-    }
+    };
     
-    assert.equal(findKey(obj,x => x.stars === 2), "Noma")
+    assert.equal(findKey(obj,x => x.stars === 2), "Noma");
   });
 });
 
